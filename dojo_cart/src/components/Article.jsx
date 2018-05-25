@@ -36,8 +36,8 @@ const Article = ({ article, outOfStock, ajoutArticle }) => {
         }
       </div>
     </div>
-  )
-}
+  );
+};
 
 Article.propTypes = {
   article: PropTypes.shape({

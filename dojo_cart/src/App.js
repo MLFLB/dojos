@@ -41,8 +41,7 @@ class App extends Component {
       articlesPanier = articlesPanier.map((art) => {
         if (art.name === article.name) {
           return {
-            name: art.name,
-            unitPrice: art.unitPrice,
+            ...art,
             qty,
           };
         }
@@ -51,8 +50,8 @@ class App extends Component {
     } else {
       articlesPanier.push({
         name: article.name,
-        qty: 1,
         unitPrice: article.price,
+        qty: 1,
       });
     }
     total += article.price;

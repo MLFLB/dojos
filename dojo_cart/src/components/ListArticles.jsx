@@ -43,7 +43,7 @@ ListArticles.propTypes = {
     name: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     qty: PropTypes.number.isRequired,
-  }).isRequired),
+  })),
 };
 
 ListArticles.defaultProps = {
