@@ -32,7 +32,7 @@ const Article = ({ article, outOfStock, ajoutArticle }) => {
             >
               Ajouter
             </button>
-            : <div className="btn"> No stock </div>
+            : <div className="btn">No stock</div>
         }
       </div>
     </div>
